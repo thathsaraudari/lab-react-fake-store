@@ -1,8 +1,7 @@
 import { useState } from "react";
-import ProductListPageComponent from "../components/ProductListPage";
 
 
-function ProductListPage() {
+function CartPage() {
   // The state variable `products` is currently an empty array [], 
   // but you should use it to store the response from the Fake Store API (the list of products).
   const [products, setProducts] = useState([]);
@@ -11,10 +10,10 @@ function ProductListPage() {
 
 
   return (
-    <div className="ProductListPage">
-      <ProductListPageComponent />
+    <div className="CartPage">
+      esesed
     </div>
   );
 }
 
-export default ProductListPage;
+export default CartPage;
